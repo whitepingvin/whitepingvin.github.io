@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ruslan+Display&display=swap');
+
+a {
+	color: #2196F3;
+}
+a:hover {
+	text-decoration: none;
+}
+body, button, input, select, optgroup, textarea {
+    color: #575758;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+header {
+    background: #2b303b;
+    padding: 10px 0;
+}
+header h1 {
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    color: #cccccc;
+}
+ul.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu li a {
+    color: brown;
+}
+.menu li a:hover, .active {
+    text-decoration: none;
+    color: #a97272;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+.category_ul {
+    display: none;
+}
+li.category {
+    position: relative;
+}
+li.category:hover .category_ul{
+    display: block;
+    position: absolute;
+    top: 130%;
+    left: -35px;
+    width: 150px;
+    z-index: 10;
+}
+.category_ul li {
+	padding-bottom: 10px;
+}
+
+li.category:after {
+    position: relative;
+    content: '\f107';
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: brown;
+    top: 0px;
+    left: 5px;
+}
+
+.main__block {
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100vh - 180px);
+}
+#main {
+    width: 70%;
+    padding: 20px;
+}
+
+.date-header span:before {
+    content: '\f073';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    font-size: 16px;
+    color: darkgrey;
+    position: relative;
+    top: -2px;
+}
+.date-header span {
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.datetime a {
+    color: #72757b;
+}
+h3.post-title a:hover {
+    color: #72757b;
+}
+h3.post-title a {
+    color: #4e525a;
+}
+span.fn a {
+    color: #72757b;
+}
+.post-outer {
+    padding: 0 20px 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cacaca;
+}
+.post-body {
+    font-size: 110%;
+    line-height: 1.3;
+    position: relative;
+}
+.post-footer {
+    margin: 20px -2px 0;
+    padding: 5px 10px;
+    line-height: 1.6;
+    font-size: 90%;
+    position: relative;
+}
+span.post-comment-link {
+    position: absolute;
+    right: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+	text-align: justify;
+}
+a.comment-link:before {
+    content: '\f0e6';
+    font-family: FontAwesome;
+    padding-right: 5px;
+    font-size: 22px;
+    color: #007bff;
+}
+.comments h4 {
+    font-size: 1rem;
+    color: brown;
+}
+
+
+
+#sidebar {
+    width: 28%;
+    padding: 20px;
+}
+.widget {
+    margin-bottom: 30px;
+}
+.widget h2 {
+    font-size: 18px;
+}
+.BlogArchive a {
+    color: #949494;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+footer p {
+    padding-top: 20px;
+}
+footer {
+    text-align: left;
+    color: #eee;
+    padding: 20px 0 20px 40px;
+    background: #2b303b;
+}
+.comments .comments-content .comment-content {
+    text-align: justify;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 3px;
+}
+.comments .comments-content .icon.blog-author {
+    display: none;
+}
+.comments .comments-content .datetime {
+    margin-left: 15px;
+    font-size: 12px;
+}
+.comments .avatar-image-container img {
+    max-width: 36px;
+    border-radius: 50%;
+}
+.commenti_recenti li a {
+    color: brown;
+    margin-top: 3px;
+}
+.commenti_recenti li span a {
+    color: #2196f3;
+}
+.comment-form p {
+    color: red;
+}
+.post-body img {
+	box-shadow: none;
+	border: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+
+}
+span.stylus {
+    position: relative;
+    font-size: 70px;
+    top: 7px;
+    color: #d65252;
+}
+
+/* CSS Contact Form */
+#ContactForm1{
+	display:none;
+}
+
+#ContactForm1_contact-form-name, #ContactForm1_contact-form-email{
+width: 300px;
+height:auto;
+margin: 5px auto;
+padding: 10px;
+background: #f2f2f2;
+border: 1px solid #ccc;
+color:#777;
+}
+#ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus{
+background: #fffff7;
+}
+#ContactForm1_contact-form-email-message{
+width: 450px;
+height: 175px;
+margin: 5px auto;
+padding: 10px;
+background: #f2f2f2;
+border: 1px solid #ccc;
+color:#777;
+font-family:Arial, sans-serif;
+}
+#ContactForm1_contact-form-submit {
+width: 101px;
+height: 35px;
+float: left;
+color: #FFF;
+padding: 0;
+margin: 10px 0 3px 0 0;
+cursor: pointer;
+background: #5E768D;
+border: 1px solid #556f8c;
+border-radius:3px;
+}
+#ContactForm1_contact-form-submit:hover {
+background:#435c74;
+}
+#ContactForm1_contact-form-error-message, #ContactForm1_contact-form-success-message{
+width: 450px;
+margin-top:35px;
+}
+
+/* Стили для кнопки Верх */
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 70px;  
+  cursor:pointer; 
+  display:none;
+  color: brown;
+}
+#go-top:hover {  
+  color: #b15858;
+}
+/* fin Стили для кнопки Верх fin */
+
+
+
+  /* -------------- */
+ /* -------------- */
+/* --- @Media --- */
+
+@media screen and (max-width: 999.99px) {
+.main__block {
+    display: block;
+}
+#main {
+    width: 100%;
+    padding: 20px;
+}
+#sidebar {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+}
+  /* --- @Media --- */
+ /* -------------- */
+/* -------------- */
