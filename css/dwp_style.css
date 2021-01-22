@@ -146,12 +146,15 @@ p {
     margin-bottom: 0.5rem;
 	text-align: justify;
 }
+a.comment-link {
+    color: brown;
+}
 a.comment-link:before {
     content: '\f0e6';
     font-family: FontAwesome;
     padding-right: 5px;
     font-size: 22px;
-    color: #007bff;
+    color: brown;
 }
 .comments h4 {
     font-size: 1rem;
