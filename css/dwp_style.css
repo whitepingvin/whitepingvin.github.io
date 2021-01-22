@@ -10,10 +10,11 @@ URL:      https://dev.whitepingvin.ru
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ruslan+Display&display=swap');
 
 a {
-	color: #2196F3;
+    color: #d65252;
 }
 a:hover {
-	text-decoration: none;
+    color: brown;
+    text-decoration: none;
 }
 body, button, input, select, optgroup, textarea {
     color: #575758;
