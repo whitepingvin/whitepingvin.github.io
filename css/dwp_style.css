@@ -137,6 +137,9 @@ span.fn a {
     font-size: 90%;
     position: relative;
 }
+.post-labels a {
+    color: brown;
+}
 span.post-comment-link {
     position: absolute;
     right: 0;
