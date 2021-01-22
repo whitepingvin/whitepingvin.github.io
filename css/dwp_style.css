@@ -19,7 +19,7 @@ body, button, input, select, optgroup, textarea {
     color: #575758;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 14.5px;
 }
 header {
     background: #2b303b;
@@ -107,6 +107,9 @@ ul, li {
 }
 .datetime a {
     color: #72757b;
+}
+.h3, h3 {
+    font-size: 1.6rem;
 }
 h3.post-title a:hover {
     color: #72757b;
