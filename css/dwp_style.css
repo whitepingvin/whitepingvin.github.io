@@ -94,7 +94,7 @@ ul, li {
 	margin: 50px 0;
 }
 .learning__block li, .resources li {
-    list-style: disc;
+    list-style: disc !IMPORTANT;
 }
 
 .main__block {
