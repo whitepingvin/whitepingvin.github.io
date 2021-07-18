@@ -83,6 +83,9 @@ li.category:after {
 ul, li {
     list-style: none;
 }
+.description {
+    margin-top: 50px;
+}
 .content {
     width: 900px;
     max-width: 100%;
@@ -100,6 +103,23 @@ ul, li {
 .linkss {
     width: 70%;
     margin: 0 auto;
+}
+.search_blog {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gsc-control-cse {
+    border-color: transparent !IMPORTANT;
+    background-color: transparent !IMPORTANT;
+}
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+    border-color: #3079ED;
+    background-color: #4D90FE;
+    background-image: none;
+    filter: none;
+    padding: 11px !IMPORTANT;
+    margin-left: -14px !IMPORTANT;
 }
 
 .main__block {
