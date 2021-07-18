@@ -96,6 +96,10 @@ ul, li {
 .learning__block li, .resources li {
     list-style: disc !IMPORTANT;
 }
+.linkss {
+    width: 70%;
+    margin: 0 auto;
+}
 
 .main__block {
     display: flex;
