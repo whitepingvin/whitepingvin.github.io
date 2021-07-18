@@ -93,6 +93,9 @@ ul, li {
     justify-content: space-evenly;
 	margin: 50px 0;
 }
+.learning__block li, .resources li {
+    list-style: disc;
+}
 
 .main__block {
     display: flex;
