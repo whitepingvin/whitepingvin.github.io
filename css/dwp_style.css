@@ -82,6 +82,11 @@ li.category:after {
 ul, li {
     list-style: none;
 }
+.content {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 .main__block {
     display: flex;
