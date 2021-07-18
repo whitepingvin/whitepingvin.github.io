@@ -234,6 +234,10 @@ img {
     max-width: 100%;
 
 }
+.item__block img {
+	width: 100px;
+	height: auto;
+}
 span.stylus {
     position: relative;
     font-size: 70px;
