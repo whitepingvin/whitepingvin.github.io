@@ -11,6 +11,7 @@ URL:      https://dev.whitepingvin.ru
 
 a {
     color: #d65252;
+	text-decoration: none;
 }
 a:hover {
     color: brown;
