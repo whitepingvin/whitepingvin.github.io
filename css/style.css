@@ -5,3 +5,9 @@ padding: 0;
 h1 {
     text-align: center;
 }
+a.tooltip {
+    font-weight: bold;
+}
+span.info {
+    font-weight: normal;
+}
